@@ -113,6 +113,7 @@
     end
     
     def play(board)
+<<<<<<< HEAD
       until over?(board)
       turn(board)
     end
@@ -122,3 +123,16 @@
       puts "Cat's Game!"
     end
   end
+=======
+      input = gets
+  end
+    
+    #if winner(board) == "X"
+       #puts "Congratulations X!"
+     #elsif winner(board) == "O"
+       #puts "Congratulations O!"
+     #elsif draw?(board)
+        #puts "Cat's Game!"
+      #else nil
+   #end
+>>>>>>> c76080fcceecff0711944d0c1cd5437b61f5f586
